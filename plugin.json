@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-quickstart",
-	"url": "https://github.com/NodeBB/nodebb-plugin-quickstart",
+	"id": "nodebb-plugin-disable-ajaxify",
+	"url": "https://github.com/Men770/nodebb-plugin-disable-ajaxify",
 	"library": "./library.js",
 	"hooks": [
 		{
