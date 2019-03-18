@@ -17,4 +17,8 @@ $(document).ready(function () {
 
 	console.log('nodebb-plugin-quickstart: loaded');
 	// Note how this is shown in the console on the first load of every page
+	ajaxify.go = function(url) {
+        	window.location.href = RELATIVE_PATH + '/' + url;
+    	};
+
 });
