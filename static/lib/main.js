@@ -1,7 +1,13 @@
 'use strict';
 
 /* globals document, $ */
-
+$(window).on('action:ajaxify.end', function(data) {
+	console.log('plugin loaded');
+	ajaxify.go = function(url) {
+        	window.location.href = RELATIVE_PATH + '/' + url;
+    	};
+    // your code here
+});
 $(document).ready(function () {
 	/*
 		This file shows how client-side javascript can be included via a plugin.
@@ -15,10 +21,8 @@ $(document).ready(function () {
 		$(window).on('action:ajaxify.end', function(data) { ... });			"data" contains "url"
 	*/
 
-	console.log('nodebb-plugin-quickstart: loaded');
+	
 	// Note how this is shown in the console on the first load of every page
-	ajaxify.go = function(url) {
-        	window.location.href = RELATIVE_PATH + '/' + url;
-    	};
+
 
 });
