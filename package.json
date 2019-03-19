@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-disable-ajaxify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Disable ajaxify",
   "main": "library.js",
   "repository": {
@@ -10,7 +10,7 @@
   "keywords": [
     "nodebb",
     "plugin",
-    "quickstart",
+    "ajaxify",
     "shell"
   ],
   "husky": {
@@ -26,8 +26,8 @@
     ]
   },
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "Men770",
+    "email": "men770b@gmail.com"
   },
   "license": "MIT",
   "bugs": {
