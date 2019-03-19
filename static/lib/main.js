@@ -1,7 +1,7 @@
 'use strict';
 
 /* globals document, $ */
-$(window).on('action:ajaxify.end', function(data) {
+$(window).on('action:app.load', function(data) {
 	console.log('plugin loaded');
 	ajaxify.go = function(url) {
         	window.location.href = RELATIVE_PATH + '/' + url;
