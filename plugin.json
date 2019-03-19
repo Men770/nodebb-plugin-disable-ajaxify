@@ -4,7 +4,7 @@
 	"library": "./library.js",
 	"hooks": [
 		{
-			"hook": "static:app.load", "method": "init"
+			"hook": "action:nodebb.ready", "method": "init"
 		},
 		{
 			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
