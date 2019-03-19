@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-disable-ajaxify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Disable ajaxify",
   "main": "library.js",
   "repository": {
